@@ -15,6 +15,8 @@ function carregarCSV() {
     });
 };
 
+
+//Lógica principal
 function processarCSV(content) {
     let split_line = content.split("\n");
     let header = split_line[0].split(";");
@@ -56,6 +58,7 @@ function processarCSV(content) {
         table += '</tr>';
     };
     table += '</table>';
+
 
     // // Mostrar o dicionário original como texto
     // const dictText = `<pre>${JSON.stringify(dict, null, 2)}</pre>`;
