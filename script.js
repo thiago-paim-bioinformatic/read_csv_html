@@ -16,7 +16,7 @@ function carregarCSV() {
 };
 
 
-//Lógica principal
+//Lógica principal; 
 function processarCSV(content) {
     let split_line = content.split("\n");
     let header = split_line[0].split(";");
