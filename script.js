@@ -38,7 +38,7 @@ function processarCSV(content) {
         };
     };
 
-    // Criar tabela HTML - iterativamente
+    // Criar tabela HTML - iterativamente!
     let table = '<table>';
     
     // Cabeçalho da tabela
